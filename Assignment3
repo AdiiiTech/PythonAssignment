@@ -1,0 +1,6 @@
+import sys
+no = 30
+
+print("Type of no is : ",type(no))
+print("ID of no is : ",id(no))
+print("Size in bytes : ", sys.getsizeof(no))
