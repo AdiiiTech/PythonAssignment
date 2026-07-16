@@ -1,0 +1,10 @@
+def Sum(no):
+    ans = 0
+
+    for i in range(1, no + 1):
+        ans = ans+1
+
+    print("Sum =", ans)
+
+num = int(input("Enter a number :"))
+Sum(num)
